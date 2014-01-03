@@ -1,6 +1,6 @@
 <?php namespace Acme\Composers;
 
-use View, DB, Auth;
+use DB, Auth;
 
 class PostComposer {
 
