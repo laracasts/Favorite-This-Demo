@@ -1,0 +1,14 @@
+button[type=submit] {
+    background: none;
+    border: none;
+}
+
+button[type=submit]:hover {
+    color: red;
+}
+
+.favorited { color: red;}
+.favorited:hover { color: black; }
+
+.not-favorited { color: black; }
+.not-favorited:hover { color: red; }

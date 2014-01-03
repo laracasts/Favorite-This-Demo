@@ -79,3 +79,10 @@ App::down(function()
 */
 
 require app_path().'/filters.php';
+
+/*
+|--------------------------------------------------------------------------
+| Load View Composers
+|--------------------------------------------------------------------------
+*/
+View::composer('posts.index', 'Acme\Composers\PostComposer');
